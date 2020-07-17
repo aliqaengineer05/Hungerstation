@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9402" started-at="2020-07-17T07:01:42Z" finished-at="2020-07-17T07:01:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9402" started-at="2020-07-17T07:01:42Z" finished-at="2020-07-17T07:01:51Z">
+      <class name="org.brit.tests.PetClassWithRequestSpec">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="beforeMethod" is-config="true" duration-ms="133" started-at="2020-07-17T12:01:42Z" finished-at="2020-07-17T12:01:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.brit.tests.PetClassWithRequestSpec.addNewPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPet()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="addNewPet" duration-ms="3595" started-at="2020-07-17T12:01:42Z" finished-at="2020-07-17T12:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="afterMethod" is-config="true" duration-ms="246" started-at="2020-07-17T12:01:45Z" finished-at="2020-07-17T12:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPet status=SUCCESS method=PetClassWithRequestSpec.addNewPet()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-17T12:01:46Z" finished-at="2020-07-17T12:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.brit.tests.PetClassWithRequestSpec.getPetById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getPetById()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="getPetById" duration-ms="743" started-at="2020-07-17T12:01:46Z" finished-at="2020-07-17T12:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetById -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="afterMethod" is-config="true" duration-ms="106" started-at="2020-07-17T12:01:46Z" finished-at="2020-07-17T12:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetById status=SUCCESS method=PetClassWithRequestSpec.getPetById()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-17T12:01:46Z" finished-at="2020-07-17T12:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.brit.tests.PetClassWithRequestSpec.getPetByIdAndDoCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getPetByIdAndDoCheck()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="getPetByIdAndDoCheck" duration-ms="974" started-at="2020-07-17T12:01:46Z" finished-at="2020-07-17T12:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByIdAndDoCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="afterMethod" is-config="true" duration-ms="89" started-at="2020-07-17T12:01:47Z" finished-at="2020-07-17T12:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetByIdAndDoCheck status=SUCCESS method=PetClassWithRequestSpec.getPetByIdAndDoCheck()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getPetsByStatus()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="getPetsByStatus" duration-ms="1740" started-at="2020-07-17T12:01:47Z" finished-at="2020-07-17T12:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatus -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-17T12:01:47Z" finished-at="2020-07-17T12:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.brit.tests.PetClassWithRequestSpec.getPetsByStatus()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="afterMethod" is-config="true" duration-ms="38" started-at="2020-07-17T12:01:49Z" finished-at="2020-07-17T12:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatus status=SUCCESS method=PetClassWithRequestSpec.getPetsByStatus()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-17T12:01:49Z" finished-at="2020-07-17T12:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.brit.tests.PetClassWithRequestSpec.updateExistingPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="updateExistingPet()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="updateExistingPet" duration-ms="1612" started-at="2020-07-17T12:01:49Z" finished-at="2020-07-17T12:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingPet -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d]" name="afterMethod" is-config="true" duration-ms="92" started-at="2020-07-17T12:01:51Z" finished-at="2020-07-17T12:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateExistingPet status=SUCCESS method=PetClassWithRequestSpec.updateExistingPet()[pri:0, instance:org.brit.tests.PetClassWithRequestSpec@1f97cf0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.brit.tests.PetClassWithRequestSpec -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
